@@ -10,7 +10,6 @@ transformers.utils.logging.set_verbosity_error()
 # MODEL = 'google/t5-v1_1-small'
 MODEL = 'google/flan-t5-large'
 # MODEL = 't5-large'
-# MODEL = '/groups/3/gac50543/migrated_from_SFA_GPFS/share/kat5-base'
 BATCH_SIZE = 64
 MAX_LENGTH = 256 # Maximum context length to consider while preparing dataset.
 
@@ -24,7 +23,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL, model_max_length=MAX_LENGTH)
 model.to(device)
 
 
-data_dir = '/groups/3/gac50543/migrated_from_SFA_GPFS/matiss/data/wmt23/distill/extracted/for-mega/ner-mt/for-mt5/devel-parts';
+data_dir = '/data/wmt23/distill/extracted/ner-mt/for-mt5/devel-parts';
 file_src = open(data_dir+'/devel-src.deen-bas-mt.txt', 'r')
 # file_src = open(data_dir+'/devel-src.ende-bas-mt.txt', 'r')
 

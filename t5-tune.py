@@ -20,7 +20,7 @@ import wandb
 os.environ["WANDB_PROJECT"] = "T5-tuning"
 
 MODEL = 't5-small'
-# MODEL = '/home/aad13940yw/tools/flant5/results_t5small/checkpoint-lilbit'
+# MODEL = '/results_t5small/checkpoint-lilbit'
 BATCH_SIZE = 4
 NUM_PROCS = 16
 EPOCHS = 10
@@ -76,7 +76,7 @@ def process_data_to_model_inputs(batch):
   return batch
 
 # Load data from files
-data_dir = '/groups/3/gac50543/migrated_from_SFA_GPFS/matiss/data/wmt23/distill/extracted/for-mega/ner-mt/for-mt5';
+data_dir = '/data/wmt23/distill/extracted/ner-mt/for-mt5';
 file_src = open(data_dir+'/small-train.src', 'r')
 file_trg = open(data_dir+'/small-train.trg', 'r')
 lines_src = file_src.readlines()
