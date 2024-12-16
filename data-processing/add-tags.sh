@@ -35,7 +35,7 @@ cat \
 	processing/file.17.trg \
 	> $TYPE-train.trg
 
-~/scripts/shuffle_parallel.sh $TYPE-train.src $TYPE-train.trg
+./shuffle_parallel.sh $TYPE-train.src $TYPE-train.trg
 
 # head -n 1000000 $TYPE-train.src.shuf > 1m-$TYPE-train.src
 # head -n 1000000 $TYPE-train.trg.shuf > 1m-$TYPE-train.trg
@@ -70,4 +70,4 @@ cat \
 	processing/file.14.trg \
 	> train.trg
 
-~/scripts/shuffle_parallel.sh train.src train.trg
+./shuffle_parallel.sh train.src train.trg
