@@ -59,3 +59,12 @@ Matīss Rikters, Makoto Miwa (2024). "[Entity-aware Multi-task Training Helps Ra
     pages = "47--54",
 }
 ```
+
+Terms of Use
+---------
+
+The attached terms and conditions of use (the “TCU”) shall apply when downloading and Exploiting (defined in the TCU) the program described in Exhibit 1 (the “Program”) and Ancillary Data (defined in the TCU) held by the National Institute of Advanced Industrial Science and Technology (“AIST”).
+
+The TCU sets forth the matters that must be observed by the person who downloads the Program and Ancillary Data (the “User”) when he/she Exploits the Program and Ancillary Data for the purpose of evaluation, trial use, verification, etc.
+
+Please read carefully and comply with the TCU before downloading and Exploiting the Program and Ancillary Data.
